@@ -1,0 +1,40 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+h1{
+    margin-bottom: 12px;
+}
+
+.card{
+    width: 450px;
+    margin: 40px;
+    border: 4px solid #222;
+}
+
+
+.card::after{
+    content: "";
+    display: block;
+
+}
+
+.avatar{
+    width: 100px;
+    display: block;
+
+}
+
+.data{
+    padding: 32px;
+    padding-top: 24px;
+}
